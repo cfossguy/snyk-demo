@@ -14,6 +14,8 @@ is: `https://console.run.pivotal.io/`
 
 # Setup
 1. Setup [Github integration](https://app.snyk.io/org/pivotal-demo/integrations) and make sure that all 6 projects are listed in your Dashboard. 
+1. [OPTIONAL] Repeat previous step for PWS or Cloud Foundry integration. This will allow you to show vulnerabilities of
+deployed apps, independent of SCM scanning. Very useful for platform operators.
 1. Before running the demo script, build and deploy all projects using `./pwsBuildDeploy.sh` or similar commands.
 1. Open web-gui URL and verify that clicking on the snyk image takes you to the correct snyk dashboard. 
 1. In web-gui URL make sure that the pivotal cloud foundry image takes you to the correct apps manager console
@@ -27,19 +29,19 @@ struts 1.x microservice will be invoked. Otherwise, it's a spring-boot 1.x endop
 descriptions will tell you which apps are spring boot 1.x, 2.x or struts 1.x. There is a node web gateway that makes 3 async HTTP GET calls
 and combines the results for the web gui.
 1. Click any `Details` button. This will log you out, essentially resetting the GUI.
-1. Click on the Snyk image. It will open a new tab window and take you to the snyk dashboard. Explain the various 
-vulnerabilities in the applications. 
-1. Go back to the web-gui and click on the `Architecture` button. Explain the web-gui -> bff -> microservice based architecture. Key frameworks
+1. Click on the `Architecture` button. Explain the web-gui -> bff -> microservice based architecture. Key frameworks
 in use for each service are listed in the diagram. Re-emphasize the different vulnerability challenges
 with modern apps because of deep npm and maven dependency trees. These issues exist even when the app is super simple.
+1. Click on the Snyk image. It will open a new tab window and take you to the snyk dashboard. Explain the various 
+vulnerabilities in the applications. 
+1. Explain that Snyk can scan both source code repos(github) and deployed apps in cloud foundry spaces. 
 
 # Demo Script - Extended
 1. If you have more time, go a little deeper into how Snyk can help you not only see but address vulnerabilities.
 1. Open a terminal window and `cd snyk-demo`
 1. Run `snyk test backend-banking-legacy`. Explain that the CLI shows the same data as the dashboard.
 1. Run `cd web-gateway` then `snyk wizard`. Explain how Snyk can automitically remediate some issues with node based apps.
-1. Commit and push changes to github. Open Snyk dashboard, re-scan the `web-gateway` project and show a reduction in 
-total vulnerabilities.
+1. Commit and push changes to github. Open Snyk dashboard and show a reduction in total vulnerabilities.
 1. Run `cf push -f ./manifest-special.yml`. This will attempt to push `backend-banking-legacy` by using the [Snyk java buildpack](https://github.com/AH7/java-buildpack).
 This push should fail b/c of HIGH level vulnerabilities. 
 1. Explain how the CLI and snyk buildpacks can be used in CI pipelines to protect production.
