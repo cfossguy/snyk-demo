@@ -41,7 +41,10 @@ vulnerabilities in the applications.
 1. Open a terminal window and `cd snyk-demo`
 1. Run `snyk test backend-banking-legacy`. Explain that the CLI shows the same data as the dashboard.
 1. Run `cd web-gateway` then `snyk wizard`. Explain how Snyk can automitically remediate some issues with node based apps.
-1. Commit and push changes to github. Open Snyk dashboard and show a reduction in total vulnerabilities.
+1. Run `snyk test`. If there are still HIGH issues, run `snyk wizard` and `snyk test` again. Explain how Snyk 
+automatically remediated all HIGH issues.
+1. Run `gulp test`. Explain that the integration test still passes. **REQUIRES LOCAL RUNNING: `backend-banking`, 
+`backend-investments` and `backend-linesofcredit`**
 1. Run `cf push -f ./manifest-special.yml`. This will attempt to push `backend-banking-legacy` by using the [Snyk java buildpack](https://github.com/AH7/java-buildpack).
 This push should fail b/c of HIGH level vulnerabilities. 
 1. Explain how the CLI and snyk buildpacks can be used in CI pipelines to protect production.
@@ -57,3 +60,22 @@ This push should fail b/c of HIGH level vulnerabilities.
 ![Web GUI Dashboard](web-gui-dashboard.png) 
 ### Snyk Dashboard
 ![Snyk Dashboard](snyk-dashboard.png) 
+
+# Troubleshooting Tips
+### web-gateway
+* If `gulp test` fails run `npm i -g gulp-cli`
+* To reset your node_modules, delete `node_modules` folder and run `npm install`
+* It helps to git revert `package.json` and `package-lock.json` in between demo runs.
+This will add back vulnerabilities that get fixed on `snyk wizard`
+### backend-banking-legacy
+* `mvn clean install` fails, install/configure [apache maven](https://maven.apache.org/download.cgi)
+### web-gui
+* `npm start` fails, install [react-scripts](https://www.npmjs.com/package/react-scripts) 
+
+# Run Locally
+* **backend-banking-legacy** - OPTIONAL: Deploy backend-banking-legacy.war to tomcat. Runs on PORT:8080
+* **backend-banking** - Run BankingApplication.java. Runs on PORT:8083
+* **backend-investments** - Run InvestmentsApplication.java. Runs on PORT:8081
+* **backend-linesofcredit** - Run LinesOfCreditApplication.java. Runs on PORT:8082
+* **web-gateway** - `node app.js`. Runs on PORT: 3001
+* **web-gui** - `npm start`. Runs on PORT: 3000

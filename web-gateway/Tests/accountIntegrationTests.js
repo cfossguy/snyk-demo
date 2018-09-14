@@ -5,13 +5,13 @@ var should = require('should'),
 
 describe('Get Acccount Integration Test', function(){
     it('Should just work', function(done){
-        agent.get('/api/account/123')
+        agent.get('/api/account/234')
             .expect(200)
             .end(function(err, results){
 
-                results.body.checking.balance.should.equal(100);
-                results.body.investments.balance.should.equal(1000);
-                results.body.lines_of_credit.balance.should.equal(-100000);
+                results.body.checking.balance.should.greaterThan(0)
+                results.body.investments.balance.should.greaterThan(0)
+                results.body.lines_of_credit.balance.should.lessThan(0)
 
                 done();
             })
