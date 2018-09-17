@@ -7,9 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13c1b090-674a-4806-bb52-9bd9c89a3869" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/backend-banking-legacy/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-banking-legacy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cf-push-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/cf-push-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy.war" beforeDir="false" afterPath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/pages/Account.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/pages/Account.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest-special.yml" beforeDir="false" afterPath="$PROJECT_DIR$/manifest-special.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/backend-banking/target/" />
@@ -45,12 +49,12 @@
           <entry key="js" value="11552" />
           <entry key="json" value="98" />
           <entry key="jsp" value="526" />
-          <entry key="md" value="7523" />
+          <entry key="md" value="7847" />
           <entry key="properties" value="94" />
           <entry key="sh" value="132" />
           <entry key="txt" value="23" />
           <entry key="xml" value="361" />
-          <entry key="yml" value="550" />
+          <entry key="yml" value="592" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -62,11 +66,11 @@
           <entry key="JSON" value="98" />
           <entry key="JSP" value="526" />
           <entry key="JavaScript" value="11552" />
-          <entry key="Markdown" value="7523" />
+          <entry key="Markdown" value="7847" />
           <entry key="PLAIN_TEXT" value="155" />
           <entry key="Properties" value="94" />
           <entry key="XML" value="361" />
-          <entry key="YAML" value="550" />
+          <entry key="YAML" value="592" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -90,8 +94,8 @@
           <entry key="properties" value="10" />
           <entry key="sh" value="4" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="25" />
-          <entry key="yml" value="7" />
+          <entry key="xml" value="28" />
+          <entry key="yml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -108,8 +112,8 @@
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="Properties" value="10" />
           <entry key="Terminal Session" value="2" />
-          <entry key="XML" value="25" />
-          <entry key="YAML" value="7" />
+          <entry key="XML" value="28" />
+          <entry key="YAML" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -143,8 +147,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="323">
-                <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+              <first_editor relative-caret-position="114">
+                <caret line="57" selection-start-line="57" selection-end-line="57" />
               </first_editor>
               <second_editor />
             </state>
@@ -152,19 +156,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manifest-special.yml">
+        <entry file="file://$PROJECT_DIR$/backend-banking-legacy/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+            <state relative-caret-position="-201">
+              <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cf-push-error.log">
+        <entry file="file://$PROJECT_DIR$/manifest-special.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="37" column="6" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="37" selection-end-column="6" />
+            <state relative-caret-position="171">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manifest.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -333,7 +346,51 @@
           <expand>
             <path>
               <item name="snyk-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="backend-banking-legacy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snyk-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend-banking-legacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snyk-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend-banking-legacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snyk-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend-banking-legacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snyk-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend-banking-legacy" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snyk-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend-banking-legacy" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="backend-banking-legacy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snyk-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend-banking-legacy" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="backend-banking-legacy" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snyk-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend-banking-legacy" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="backend-banking-legacy" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -351,7 +408,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537204581168" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537219210929" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
@@ -364,17 +421,21 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy" />
+      <recent name="$PROJECT_DIR$/backend-banking-legacy/target" />
+      <recent name="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/WEB-INF" />
+      <recent name="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/WEB-INF/lib" />
+      <recent name="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/META-INF" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.gnb.demo.backendbanking" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend-banking-legacy/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy" />
       <recent name="$PROJECT_DIR$/web-gui" />
       <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/web-gui/src" />
-      <recent name="$PROJECT_DIR$/backend-banking-legacy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -640,18 +701,18 @@
       <workItem from="1535478471075" duration="39825000" />
       <workItem from="1535641458257" duration="34802000" />
       <workItem from="1536064917132" duration="32164000" />
-      <workItem from="1536765188357" duration="52683000" />
+      <workItem from="1536765188357" duration="58005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167290000" />
+    <option name="totallyTimeSpent" value="172612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.2002442" />
+      <window_info id="Project" order="0" visible="true" weight="0.2002442" />
       <window_info id="Structure" order="1" weight="0.2494244" />
       <window_info id="Learn" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -669,7 +730,7 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329849" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32834226" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32834226" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.329849" />
@@ -706,8 +767,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-gui/README.md" />
-    <entry file="file://$PROJECT_DIR$/react-gui/public/pricing/index.html" />
     <entry file="file://$PROJECT_DIR$/backend-linesofcredit/src/main/java/com/gnb/demo/linesofcredit/LinesOfCreditApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -837,13 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend-banking-legacy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend-banking-legacy/src/main/webapp/pages/Account.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -879,13 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="54" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manifest.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1013,13 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manifest-special.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cf-push-error.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
@@ -1027,11 +1065,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend-banking-legacy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-201">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-banking-legacy/src/main/webapp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest-special.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <first_editor relative-caret-position="114">
+            <caret line="57" selection-start-line="57" selection-end-line="57" />
           </first_editor>
           <second_editor />
         </state>

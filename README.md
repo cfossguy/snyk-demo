@@ -54,6 +54,9 @@ vulnerabilities in the applications.
 automatically remediated all HIGH issues.
 1. Run `gulp test`. Explain that the integration test still passes. **REQUIRES LOCAL RUNNING: `backend-banking`, 
 `backend-investments` and `backend-linesofcredit`**
+1. Set `SNYK_TOKEN` environment variable `SNYK_TOKEN=YOUR_API_TOKEN`. To retrieve your token in Snyk Dashboard click on: 
+Account Settings -> API token -> Show 
+1. Set your SNYK_TOKEN enviornment variable for the `backend-banking-legacy` app: `cf set-env fnb-backend-banking-legacy SNYK_TOKEN $SNYK_TOKEN`
 1. Run `cf push -f ./manifest-special.yml`. This will attempt to push `backend-banking-legacy` by using the [Snyk java buildpack](https://github.com/AH7/java-buildpack).
 This push should fail b/c of HIGH level vulnerabilities. 
 1. Explain how the CLI and snyk buildpacks can be used in CI pipelines to protect production.
