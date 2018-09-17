@@ -7,14 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13c1b090-674a-4806-bb52-9bd9c89a3869" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/backend-banking-legacy/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-banking-legacy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy.war" beforeDir="false" afterPath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/pages/Account.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/pages/Account.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest-special.yml" beforeDir="false" afterPath="$PROJECT_DIR$/manifest-special.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/backend-banking/target/" />
     <ignored path="$PROJECT_DIR$/backend-investments/target/" />
@@ -49,7 +43,7 @@
           <entry key="js" value="11552" />
           <entry key="json" value="98" />
           <entry key="jsp" value="526" />
-          <entry key="md" value="7847" />
+          <entry key="md" value="7869" />
           <entry key="properties" value="94" />
           <entry key="sh" value="132" />
           <entry key="txt" value="23" />
@@ -66,7 +60,7 @@
           <entry key="JSON" value="98" />
           <entry key="JSP" value="526" />
           <entry key="JavaScript" value="11552" />
-          <entry key="Markdown" value="7847" />
+          <entry key="Markdown" value="7869" />
           <entry key="PLAIN_TEXT" value="155" />
           <entry key="Properties" value="94" />
           <entry key="XML" value="361" />
@@ -147,8 +141,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="114">
-                <caret line="57" selection-start-line="57" selection-end-line="57" />
+              <first_editor relative-caret-position="146">
+                <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -408,7 +402,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537219210929" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537219711674" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
@@ -701,12 +695,12 @@
       <workItem from="1535478471075" duration="39825000" />
       <workItem from="1535641458257" duration="34802000" />
       <workItem from="1536064917132" duration="32164000" />
-      <workItem from="1536765188357" duration="58005000" />
+      <workItem from="1536765188357" duration="58373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172612000" />
+    <option name="totallyTimeSpent" value="172980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -1099,8 +1093,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <first_editor relative-caret-position="146">
+            <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>

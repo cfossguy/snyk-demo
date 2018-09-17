@@ -5,7 +5,8 @@ risk.
 1. Snyk provides developer and operator friendly tools for identifying application security vulnerabilities.
 1. For Node.js, Snyk can automatically apply security patches during 
 development(snyk wizard) or during deployment(cf push).
-1. For IT Operators, Snyk can go one step further and fail the deployment(cf push) of vulnerable applications.
+1. For IT Operators, Snyk can go one step further and fail the deployment(cf push) of vulnerable applications. This 
+feature supports Java and Node.
 
 # Installation
 * All build and deploy commands live in `pwsBuildDeploy.sh`. 
