@@ -1,3 +1,12 @@
+# Key Takeaways
+1. Application platforms like Pivotal Cloud Foundry provide excellent, automated Operating System
+and Middleware CVE patching. But, your application dependency trees are a significant security vulnerability
+risk.  
+1. Snyk provides developer and operator friendly tools for identifying application security vulnerabilities.
+1. For Node.js, Snyk can automatically apply security patches during 
+development(snyk wizard) or during deployment(cf push).
+1. For IT Operators, Snyk can go one step further and fail the deployment(cf push) of vulnerable applications.
+
 # Installation
 * All build and deploy commands live in `pwsBuildDeploy.sh`. 
 This is a polyglot demo that builds spring-boot 1.x-2.x, node, react and struts 1.x based projects

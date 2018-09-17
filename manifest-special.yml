@@ -1,7 +1,7 @@
 ---
 applications:
 - name: fnb-backend-banking-legacy
-  buildpack: https://github.com/AH7/java-buildpack
+  buildpack: https://github.com/AH7/java-buildpack/
   #buildpack: java_buildpack
   path: backend-banking-legacy/target/backend-banking-legacy.war
   instances: 1
