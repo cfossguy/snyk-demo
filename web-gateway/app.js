@@ -16,9 +16,9 @@ accountRouter = express.Router();
 accountRouter.route('/account/:id').
     get(function(req,res) {
 
-    var banking_url = (process.env.backend_banking_url || 'http://localhost:8083') + '/account/' + req.params.id;
-    var investments_url = (process.env.backend_investments_url || 'http://localhost:8081') + '/account/' + req.params.id;
-    var linesofcredit_url = (process.env.backend_linesofcredit_url ||'http://localhost:8082') + '/account/' + req.params.id;
+    var banking_url = (process.env.BACKEND_BANKING_URL || 'http://localhost:8083') + '/account/' + req.params.id;
+    var investments_url = (process.env.BACKEND_INVESTMENTS_URL || 'http://localhost:8081') + '/account/' + req.params.id;
+    var linesofcredit_url = (process.env.BACKEND_LINESOFCREDIT_URL ||'http://localhost:8082') + '/account/' + req.params.id;
     var accounts = new Object();
 
     console.log("banking_url: " + banking_url);

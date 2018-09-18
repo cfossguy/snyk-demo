@@ -11,6 +11,7 @@ import config from './config';
 class App extends Component {
   render() {
     return (
+
       <div className="App">
         <header className="App-header">
             <a href={config.SNYK_DASHBOARD_URL} target="_blank"><img src={snyk} className="Snyk-logo" alt="logo" /></a>

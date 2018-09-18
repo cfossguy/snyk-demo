@@ -1,17 +1,20 @@
 import React, {Component} from 'react';
 import CurrencyFormat from 'react-currency-format';
 import archimage from './fake-bank-architecture.png';
+import config from "./config";
 
 var request = require('request');
 
 class AccountsDashboard extends Component {
     constructor(props) {
+
         super(props);
         this.handleLoginSubmit = this.handleLoginSubmit.bind(this);
         this.handleLogoutClick = this.handleLogoutClick.bind(this);
         this.handleArchitectureClick = this.handleArchitectureClick.bind(this);
         this.handleWebGatewayGet = this.handleWebGatewayGet.bind(this);
         this.state = {
+            bff_url: config.FAKE_BANK_BFF_URL,
             isLoggedIn: false,
             isArchitectureSelected: false,
             checking: new Object(),
@@ -32,7 +35,7 @@ class AccountsDashboard extends Component {
             userId: event.target.userId.value
         });
         var options = {
-            uri: 'http://localhost:3001/api/account/' + event.target.userId.value,
+            uri: this.state.bff_url + '/api/account/' + event.target.userId.value,
             json: true // Automatically parses the JSON string in the response
         };
 

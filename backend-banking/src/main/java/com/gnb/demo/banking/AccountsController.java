@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class AccountsController {
 
-    @Value("${backend.legacy.url}")
+    @Value("${BACKEND_BANKING_LEGACY_URL}")
     private String legacyUrl;
 
     @RequestMapping("/account/{id}")
@@ -18,8 +18,9 @@ public class AccountsController {
         Account account = new Account();
 
         if (id.startsWith("1")){
+            System.out.println("legacy url is: " + legacyUrl);
             RestTemplate restTemplate = new RestTemplate();
-            String legacyGET = legacyUrl + "?id=" + id;
+            String legacyGET = legacyUrl + "/account.do?id=" + id;
             account = restTemplate.getForObject(legacyGET, Account.class);
         }
         else

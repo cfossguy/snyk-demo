@@ -7,7 +7,7 @@ const development = {
 const production = {
     SNYK_DASHBOARD_URL: "https://app.snyk.io/org/pivotal-demo/",
     PCF_APPS_MGR_URL: "https://console.run.pivotal.io/",
-    FAKE_BANK_BFF_URL: process.env.FAKE_BANK_BFF_URL
+    FAKE_BANK_BFF_URL: "http://fnb-web-gateway.cfapps.io"
 };
 
 const config = process.env.REACT_APP_STAGE === 'production'

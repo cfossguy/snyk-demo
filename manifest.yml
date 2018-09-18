@@ -1,15 +1,17 @@
 ---
 applications:
-- name: fnb-backend-banking
-  path: backend-banking/target/backend-banking.jar
-  instances: 1
-  memory: 1G
-  buildpack: java_buildpack
 - name: fnb-backend-banking-legacy
   path: backend-banking-legacy/target/backend-banking-legacy.war
   instances: 1
   memory: 1G
   buildpack: java_buildpack
+- name: fnb-backend-banking
+  path: backend-banking/target/backend-banking.jar
+  instances: 1
+  memory: 1G
+  buildpack: java_buildpack
+  env:
+    BACKEND_BANKING_LEGACY_URL: http://fnb-backend-banking-legacy.cfapps.io
 - name: fnb-backend-investments
   path: backend-investments/target/backend-investments.jar
   instances: 1
@@ -27,14 +29,12 @@ applications:
   memory: 64M
   buildpack: nodejs_buildpack
   env:
-    backend_banking_url: http://fnb-backend-banking.cfapps.io
-    backend_banking_legacy_url: http://fnb-backend-banking-legacy.cfapps.io
-    backend_investments_url: http://fnb-backend-investments.cfapps.io
-    backend_linesofcredit_url: http://fnb-backend-linesofcredit.cfapps.io
+    BACKEND_BANKING_URL: http://fnb-backend-banking.cfapps.io
+    BACKEND_BANKING_LEGACY_URL: http://fnb-backend-banking-legacy.cfapps.io
+    BACKEND_INVESTMENTS_URL: http://fnb-backend-investments.cfapps.io
+    BACKEND_LINESOFCREDIT_URL: http://fnb-backend-linesofcredit.cfapps.io
 - name: fnb-web-gui
-  path: ./web-gui/build
+  path: ./web-gui/build/
   instances: 1
   memory: 64M
   buildpack: staticfile_buildpack
-  env:
-    FAKE_BANK_BFF_URL: http://fnb-web-gateway.cfapps.io

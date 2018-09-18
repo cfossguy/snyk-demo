@@ -87,7 +87,7 @@ This will add back vulnerabilities that get fixed on `snyk wizard`
 
 # Run Locally
 * **backend-banking-legacy** - OPTIONAL: Deploy backend-banking-legacy.war to tomcat. Runs on PORT:8080
-* **backend-banking** - Run BankingApplication.java. Runs on PORT:8083
+* **backend-banking** - Run BankingApplication.java. Runs on PORT:8083. You will need to `export BACKEND_BANKING_LEGACY_URL=http://localhost:8080/backend-banking-legacy` to access the legacy service.
 * **backend-investments** - Run InvestmentsApplication.java. Runs on PORT:8081
 * **backend-linesofcredit** - Run LinesOfCreditApplication.java. Runs on PORT:8082
 * **web-gateway** - `node app.js`. Runs on PORT: 3001

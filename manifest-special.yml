@@ -6,5 +6,3 @@ applications:
   path: backend-banking-legacy/target/backend-banking-legacy.war
   instances: 1
   memory: 1G
-  env:
-    FAKE_BANK_BFF_URL: http://fnb-web-gateway.cfapps.io
