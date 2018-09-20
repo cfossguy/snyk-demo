@@ -7,11 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13c1b090-674a-4806-bb52-9bd9c89a3869" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web-gateway/.snyk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-gateway/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-gateway/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-gateway/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-gateway/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/backend-banking/target/" />
     <ignored path="$PROJECT_DIR$/backend-investments/target/" />
@@ -87,7 +83,7 @@
           <entry key="iml" value="1" />
           <entry key="java" value="33" />
           <entry key="js" value="62" />
-          <entry key="json" value="30" />
+          <entry key="json" value="31" />
           <entry key="jsp" value="4" />
           <entry key="log" value="1" />
           <entry key="md" value="5" />
@@ -107,7 +103,7 @@
           <entry key="HTML" value="4" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="33" />
-          <entry key="JSON" value="30" />
+          <entry key="JSON" value="31" />
           <entry key="JSP" value="4" />
           <entry key="JavaScript" value="62" />
           <entry key="Markdown" value="5" />
@@ -145,11 +141,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-gateway/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="528">
+              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web-gateway/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="4566" lean-forward="true" selection-start-line="4566" selection-end-line="4566" />
             </state>
           </provider>
         </entry>
@@ -185,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backend-investments/src/main/java/com/gnb/demo/backendbanking/AccountsController.java" />
         <option value="$PROJECT_DIR$/backend-investments/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/backend-linesofcredit/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/backend-linesofcredit/src/main/java/com/gnb/demo/backendinvestments/AccountsController.java" />
@@ -236,6 +240,7 @@
         <option value="$PROJECT_DIR$/manifest.yml" />
         <option value="$PROJECT_DIR$/web-gateway/gulpfile.js" />
         <option value="$PROJECT_DIR$/web-gateway/package.json" />
+        <option value="$PROJECT_DIR$/web-gateway/package-lock.json" />
       </list>
     </option>
   </component>
@@ -314,7 +319,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537403427206" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537404143395" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
@@ -566,12 +571,12 @@
       <workItem from="1536064917132" duration="32164000" />
       <workItem from="1536765188357" duration="59086000" />
       <workItem from="1537283074109" duration="22199000" />
-      <workItem from="1537397490681" duration="3121000" />
+      <workItem from="1537397490681" duration="3221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199013000" />
+    <option name="totallyTimeSpent" value="199113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="6" />
@@ -594,7 +599,7 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3247963" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3247963" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32873562" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -902,13 +907,6 @@
     <entry file="file://$PROJECT_DIR$/web-gateway/.snyk">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-gateway/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manifest.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
@@ -946,8 +944,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-gateway/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="528">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-gateway/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="4566" lean-forward="true" selection-start-line="4566" selection-end-line="4566" />
         </state>
       </provider>
     </entry>
