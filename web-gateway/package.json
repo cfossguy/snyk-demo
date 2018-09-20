@@ -22,6 +22,7 @@
     "sinon": "^6.1.5"
   },
   "devDependencies": {
-    "gulp-env": "^0.4.0"
+    "gulp-env": "^0.4.0",
+    "supertest": "^3.1.0"
   }
 }
